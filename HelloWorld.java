@@ -1,6 +1,10 @@
 public class HelloWorld{
-	public String str = "Hello world!";
+	public static String str;
+	static {
+		str = "Hello world!";
+	}
 	public static void main(String[] args){
+		// Alpfa coment
 		System.out.println(str);
 	}
 }
